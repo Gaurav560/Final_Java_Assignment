@@ -1,0 +1,19 @@
+When you run the ConstructorInvocationDemo program, it creates an instance of the Child class.
+ The Child class constructor uses the super() keyword to invoke the parent class constructor.
+  As a result, both the parent class constructor and the child class constructor are invoked.
+
+Key points about constructors:
+
+====>> Constructors are special methods in a class that are used to initialize objects of that class.
+====>> The name of the constructor is the same as the class name.
+====>> Constructors do not have a return type, not even void.
+====>> Constructors can be overloaded, which means a class can have multiple constructors with different parameter lists.
+====>> If a constructor is not explicitly defined in a class, the compiler adds a default constructor with no arguments.
+====>> Constructors can be used to initialize instance variables, set default values, and perform any necessary setup tasks.
+====>> The super() keyword is used to invoke the constructor of the parent class. It should be the first statement in the child class constructor.
+====>> If you don't explicitly call super() in the child class constructor, the default constructor of the parent class is automatically invoked.
+====>> If the parent class does not have a default constructor, you need to explicitly call a specific constructor of the parent class using super().
+
+
+
+

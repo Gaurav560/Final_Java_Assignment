@@ -1,0 +1,30 @@
+Key Points ===>
+----------------
+Abstract Class:
+======================
+===>> An abstract class is a class that cannot be instantiated. It serves as a base for subclasses to inherit from.
+===>> It can have both abstract and non-abstract methods.
+===>> Abstract methods are declared without an implementation and must be overridden by the concrete subclasses.
+===>> It can have fields, constructors, and non-abstract methods with an implementation.
+===>> A class can extend only one abstract class.
+===>> Abstract classes can provide default behavior for the subclasses to inherit and override.
+===>> Abstract classes can have instance variables that are inherited by the subclasses.
+===>> Example use cases: when you want to provide a common base implementation for a group of related classes or when you want to define a class that cannot be 	instantiated directly.
+
+
+Interface:
+======================
+
+===>> An interface is a contract that defines a set of methods that implementing classes must implement.
+===>> It cannot have instance variables but can have constant (static final) variables.
+===>> All methods in an interface are implicitly abstract and must be implemented by the implementing classes.
+===>> A class can implement multiple interfaces.
+===>> Interfaces provide a way to achieve multiple inheritance in Java.
+===>> Interfaces are used to define the behavior that implementing classes should adhere to.
+===>> Example use cases: when you want to define a contract that multiple classes should fulfill or when you want to achieve loose coupling between classes.
+
+
+
+
+In summary,===== abstract classes are used when you want to provide a common base implementation with both abstract and non-abstract methods, while interfaces
+ are used when you want to define a contract that multiple classes should implement. Abstract classes allow for code reusability and provide a base for subclasses, while interfaces enable loose coupling and achieve multiple inheritance-like behavior in Java.
